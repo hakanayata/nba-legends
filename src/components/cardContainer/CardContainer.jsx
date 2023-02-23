@@ -18,7 +18,7 @@ export default function CardContainer() {
   return (
     <>
         <Form.Control 
-            className="w-75 m-auto" 
+            className="w-50 m-auto" 
             placeholder="Search player..." 
             type="search" 
             onChange={(e)=>setSearchContent(e.target.value)}
